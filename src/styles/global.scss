@@ -1,0 +1,27 @@
+@charset "utf-8";
+@import "~bulma/bulma.sass";
+
+header.site-header {
+    background: rebeccapurple;
+    .site-title {
+        color: white;
+        text-decoration: none;
+    }
+    > .container {
+        padding: 1.45rem 1.0875rem;
+    }
+}
+
+footer.site-footer {
+    background: rebeccapurple;
+    color: white;
+    a {
+        color: white;
+        text-decoration: underline;
+        &:hover,
+        &:focus,
+        &:active {
+            text-decoration: none;
+        }
+    }
+}
