@@ -15,9 +15,9 @@ _This project was created with Gatsby Default Starter, you can find it here: htt
 1.  **Clone this repo.**
 
 1.  **Install dependencies.**
-    ```npm install````
+    ```npm install```
     or
-    ```yarn install````
+    ```yarn install```
 
 1.  **Edit Gatsby config file.**
      Open `gatsby-config.js` and change these lines with your WordPress data
