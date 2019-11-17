@@ -34,6 +34,15 @@ exports.createPages = ({ graphql, actions }) => {
           postid: node.wordpress_id,
           postcats: categoriesIds,
         },
+	  }),
+	  createPage({
+        path: `${node.slug}/amp`,
+        component: path.resolve(`./src/templates/single-post-amp.js`),
+        context: {
+          slug: node.slug,
+          postid: node.wordpress_id,
+          postcats: categoriesIds,
+        },
       })
     })
   })

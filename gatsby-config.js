@@ -20,7 +20,7 @@ module.exports = {
     {
       resolve: `gatsby-source-wordpress`,
       options: {
-        baseUrl: `wptestsite.local`, // Using a Local by Flywheel WordPress install on thi URL.
+        baseUrl: `wptestsite.local`, // Using a Local by Flywheel WordPress install on the URL.
         protocol: `https`,
         hostingWPCOM: false,
         useACF: false,
@@ -31,6 +31,7 @@ module.exports = {
         ],
       },
     },
+    `gatsby-plugin-amp`,
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
